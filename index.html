@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body">
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Santiago</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i> Profile
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase nav__icon'></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon' ></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-book-open'></i>courses
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon' ></i>References
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#interests" class="nav__link">
+                                <i class='bx bx-link-external nav__icon' ></i>Interests
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt nav__icon' ></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data db-grid">
+                                <img src="assets/img/perfil.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">Santiago <b>Navarro Sierra</b></h1>
+                                <h3 class="home__profesion">Developer</h3>
+
+                              <!-- Button to generate and download the pdf. Available for desktop. -->
+                              <div>
+                                <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download CV</a>
+                              </div>
+
+                            </div>
+
+                            <div class="home__adress bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon'></i> Cra 32 N°6953 Marrique Oriental - Medellin - Antioquia
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> Santiagons595@gmail.com
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> +57 3113858942
+                                </span>
+                            </div>
+
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!------------------Buttom to Generate and download the PDF. Available for desktop-->
+
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-buttom"></i>
+    
+
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/santiago-navarro-sierra-62b626207/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i>@SantiagoNavarroSierra
+                            </a>
+                            <a href="https://www.facebook.com/santiago.navarro.378" target="_blank" class="social__link">
+                                <i class='bx bxl-facebook-square social__icon' ></i>@Santiago_Navarro_Sierra
+                            </a>
+                            <a href="https://www.instagram.com/santiagons777/" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon'  ></i>@Santiagons777
+                            </a>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>JAVASCRIPT
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>NODEJS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>C#
+                                </li>                              
+                            </ul>
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>PYTHON
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>POWERBI
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>DATASTUDIO
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>SQL - MYSQL
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>GIT - GITHUB
+                                </li>
+                            </ul>
+                        </div>
+
+                    </section>
+
+                                        <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container bd-grid">
+                            <ul class="language__content bd-grid">
+                                <li class="language__name">
+                                    <span class="language__circle"></span>Español
+                                </li>
+
+                                <li class="language__name">
+                                    <span class="language__circle"></span>Ingles | A2
+                                </li> 
+
+                            </ul>
+                        </div>
+
+                    </section>
+
+                     <!--========== REFERENCES ==========-->
+                     <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references_container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Instructor Sena | Profesor</span>
+                                <h3 class="references__title">Dainer Rivera</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: +57 316 6984872 </li>
+                                    <li>E-mail: dainerrivera@gmail.com</li>
+                                </ul>
+                            </div>  
+                            
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Ingeniero de Sistemas</span>
+                                <h3 class="references__title">Jhon Fernandez</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: +57 310 7275421 </li>
+                                    <li>E-mail: fernandezjhon.1999@gmail.com</li>
+                                </ul>
+                            </div>                           
+                        </div>
+                        
+                    </section>
+
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section" id="interests">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-basketball interests__icon' ></i>
+                                <span class="interest__name">Basketball</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-book-open interests__icon' ></i>
+                                <span class="interest__name">Estudiar | Leer</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon' ></i>
+                                <span class="interest__name">Musica</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon' ></i>
+                                <span class="interest__name">Viajar</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon' ></i>
+                                <span class="interest__name">Ejercicio</span>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+                        <p class="profile__description">Soy Candidato a graduarme de Ingeniería de sistemas y Análisis de sistemas de la información, con conocimientos en desarrollo web y actualmente estoy aprendiendo Back-End en NodeJS, Soy una persona responsable, resiliente, organizada y con fácil adaptación a cambios, siempre estoy en busca de fortalecer y adquirir nuevos conocimientos, siempre con la mejor aptitud ante los problemas, respeto y escucho las ideas u opiniones de mis compañeros o superiores.</p>
+                    </section>
+
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Practicas Laborales en Analisis y Desarrollo de Sistemas de la Informacion</h3>
+                                    <span class="experience__company">From June 01 - 2022 to November 30 - 2022 | SENA - SENNOVA | Caucasia - Antioquia</span>
+                                    <p class="experience__description">Mi trabajo en SENNOVA principalmente fue desarrollar herramientas tecnológicas para ayudar a los técnicos de campo para que se les facilitara la recolección de datos mediante una APP móvil la cual le permitía recolectar datos mediante un formulario el cual generaba un reporte filtrado por fechas en Excel, tambien participe en la creación de una página web relacionada al contenido del árbol de caucho, otras actividades que realice fue la participación en EDT (Eventos de Divulgación Tecnológica) los cuales fueron sobre impresión 3D, Industria 4.0, robótica y drones. Principalmente fui un apoyo en la parte tecnológica del proyecto de Caucho 4.0.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Pasatias en Softwaretek</h3>
+                                    <span class="experience__company">From October 01 - 2019 to February 28 - 2020 | Softwaretek | Caucasia - Antioquia</span>
+                                    <p class="experience__description">Mis pasantías en softwaretek principalmente era hacer mantenimiento y desarrollo de un Software Contable – Administrativo, este software era utilizado por varias empresas en el municipio de Caucasia y a sus alrededores,  en estas pasantías me adentre más al mundo de la programación, aprendí como dar mantenimiento a una base de datos de gran tamaño, protocolos de seguridad de la información, mantenimientos, cambios en producción y desarrollo de nuevos módulos para este software.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-----<span class="experience__line"></span>-->
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Trabajo como Vendedor en Pillo Repuestos</h3>
+                                    <span class="experience__company">From August 01 - 2021 to February 28 - 2022 | Pillo Repuestos | Caucasia - Antioquia</span>
+                                    <p class="experience__description">En Pillo Repuestos mi Función principal aparte de ayudar con las ventas y servicio al cliente me encargaba de dar mantenimiento a los computadores, general reportes de inventario y brindar apoyo en la facturación de los diferentes repuestos..</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bg-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bg-grid">
+                                    <h3 class="education__title">Ingenieria de Sistemas</h3>
+                                    <span class="education__studies">Corporacion universitaria Remington </span>
+                                    <span class="education__year">2017 - 2022</span>
+                                </div>                         
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bg-grid">
+                                    <h3 class="education__title">Tecnologo en Analisis en Sistemas de la Informacion</h3>
+                                    <span class="education__studies">Complejo Tecnologico Para la Gestion Agro-Empresarial SENA </span>
+                                    <span class="education__year">2020 - 2022</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bg-grid">
+                                    <h3 class="education__title">Bachiller Tecnico Comerciar en Servicios: Sistemas </h3>
+                                    <span class="education__studies">Institucion Educativa Liceo Caucasia | Complejo Tecnologico Para la Gestion Agro-Empresarial SENA </span>
+                                    <span class="education__year">2015 - 2016</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                   <!------- <span class="education__line"></span> -->
+                                </div>
+                                <div class="education__data bg-grid">
+                                    <h3 class="education__title">Fundamentos de Analisis de Datos</h3>
+                                    <span class="education__studies">Ministerio de Tecnologias de la Informacion y las Comunicaciones DS4A</span>
+                                    <span class="education__year">2022 - 2022</span>
+                                </div> 
+                            </div>
+                        </div>  
+
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Tecnico en Sistemas</h3>
+                                <p class="certificate__description">El programa de técnico en sistemas, está pensado para formar personal calificado en las áreas de redes sociales, mantenimiento de equipos de cómputo y redes de computadores, donde se ha detectado que las empresas requieren soporte básico en el día a día de su operación.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Fundamentos de Analisis de Datos</h3>
+                                <p class="certificate__description">El ganador del certificado se graduó del programa Fundamentos en Analítica de Datos (DS4A) como parte de la cohorte Colombia 2022. Están listos para una carrera en análisis de datos y han aprendido a trabajar con Excel, usar cuadernos Python y Jupyter, SQL y analizar datos y visualización de datos usando Dashboards.</p>
+                            </div>
+
+                    </section>
+                     <!--========== Courses =========
+                        
+                        
+                       
+                    <section class="course section" id="course">
+
+                        <h2 class="section-title">Courses</h2>
+                        
+                        <div class="education__container bg-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bg-grid">
+                                    <h3 class="education__title">Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL</h3>
+                                    <span class="education__studies">Udemy</span>
+                                </div>                         
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bg-grid">
+                                    <h3 class="education__title">Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS</h3>
+                                    <span class="education__studies">Udemy</span>
+                                </div>                         
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bg-grid">
+                                    <h3 class="education__title">Curso Profesional de Git y GitHub</h3>
+                                    <span class="education__studies">Platzi</span>
+                                </div>                         
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                </div>
+                                <div class="education__data bg-grid">
+                                    <h3 class="education__title">Curso de Backend con Node.js: API REST con Express.js</h3>
+                                    <span class="education__studies">Platzi</span>
+                                </div>                         
+                            </div>
+                        </div>
+
+                    </section>    =-->
+
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
